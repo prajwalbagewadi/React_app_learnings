@@ -1,0 +1,12 @@
+install: 
+	-> vite 
+	-> react-app
+	-> Js
+	-> tailwindcss
+    -> mkdir nodeServer/
+	-> cd nodeServer/
+		-> npm init -y
+		-> npm i express
+		-> npm nodemon
+		-> nodemon server.js
+	->cors
